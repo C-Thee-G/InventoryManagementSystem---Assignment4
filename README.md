@@ -1,32 +1,8 @@
 
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║                                                                               ║
-║    █████╗ ██████╗ ███╗   ███╗██╗ █████╗ █████╗ ██╗     ███████╗               ║
-║   ██╔══██╗██╔══██╗████╗ ████║██║██╔══██╗██╔══██╗██║     ██╔════╝               ║
-║   ███████║██████╔╝██╔████╔██║██║███████║███████║██║     █████╗                 ║
-║   ██╔══██║██╔═══╝ ██║╚██╔╝██║██║██╔══██║██╔══██║██║     ██╔══╝                 ║
-║   ██║  ██║██║     ██║ ╚═╝ ██║██║██║  ██║██║  ██║███████╗███████╗               ║
-║   ╚═╝  ╚═╝╚═╝     ╚═╝     ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝               ║
-║                                                                               ║
-║   ██████╗ ██╗   ██╗████████╗ █████╗     ███████╗████████╗██████╗ ██╗   ██╗    ║
-║   ██╔══██╗██║   ██║╚══██╔══╝██╔══██╗    ██╔════╝╚══██╔══╝██╔══██╗╚██╗ ██╔╝    ║
-║   ██║  ██║██║   ██║   ██║   ███████║    ███████╗   ██║   ██████╔╝ ╚████╔╝     ║
-║   ██║  ██║██║   ██║   ██║   ██╔══██║    ╚════██║   ██║   ██╔══██╗  ╚██╔╝      ║
-║   ██████╔╝╚██████╔╝   ██║   ██║  ██║    ███████║   ██║   ██║  ██║   ██║       ║
-║   ╚═════╝  ╚═════╝    ╚═╝   ╚═╝  ╚═╝    ╚══════╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝       ║
-║                                                                               ║
-║                      ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗           ║
-║                     ██╔════╝██╔═══██╗████╗  ██║██╔════╝██║██╔════╝           ║
-║                     ██║     ██║   ██║██╔██╗ ██║█████╗  ██║██║  ███╗          ║
-║                     ██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║          ║
-║                     ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝          ║
-║                      ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝           ║
-║                                                                               ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
 
                           ╔═══════════════════════════╗
                           ║   ASSIGNMENT 4 - 2026     ║
-                          ║   DATA STRUCTURES SHOWDOWN ║
+                          ║  DATA STRUCTURES SHOWDOWN ║
                           ╚═══════════════════════════╝
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -69,16 +45,16 @@
 
 ```
     ╔═══════════════════════════════════════════════════════════════════╗
-    ║                                                                   ║
-    ║   This program is a comprehensive data structures assignment     ║
-    ║   that demonstrates the implementation of:                        ║
-    ║                                                                   ║
-    ║      📦 Inventory Management System (Arrays of structs)           ║
-    ║      🔗 Singly Linked List                                        ║
-    ║      📚 Stack (Array-based)                                       ║
-    ║      🚶 Queue (Linked List-based)                                 ║
-    ║      🔄 Circular Linked List (Bonus)                              ║
-    ║                                                                   ║
+    ║                                                                   
+    ║   This program is a comprehensive data structures assignment      
+    ║   that demonstrates the implementation of:                        
+    ║                                                                   
+    ║      📦 Inventory Management System (Arrays of structs)           
+    ║      🔗 Singly Linked List                                        
+    ║      📚 Stack (Array-based)                                       
+    ║      🚶 Queue (Linked List-based)                                 
+    ║      🔄 Circular Linked List (Bonus)                              
+    ║                                                                   
     ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
@@ -110,10 +86,10 @@ The program features a **menu-driven interface** where users can select which se
 ### 🔗 Section B: Linked List
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  ✓ Create linked list: 10 → 20 → 30 → 40 → 50 → 60 → 70        │
-│  ✓ Delete a specific value (40)                                 │
-│  ✓ Search for a value (80)                                      │
-│  ✓ Display list with arrow formatting                           │
+│  ✓ Create linked list: 10 → 20 → 30 → 40 → 50 → 60 → 70        
+│  ✓ Delete a specific value (40)                                 
+│  ✓ Search for a value (80)                                      
+│  ✓ Display list with arrow formatting                           
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -131,11 +107,11 @@ The program features a **menu-driven interface** where users can select which se
 ### 🚶 Section D: Queue Operations
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  ✓ Create queue: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50         │
-│  ✓ Enqueue new value (60)                                       │
-│  ✓ Dequeue specific value (25)                                  │
-│  ✓ Display queue from front to rear                             │
-│  ✓ Peek at front element                                        │
+│  ✓ Create queue: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50         
+│  ✓ Enqueue new value (60)                                       
+│  ✓ Dequeue specific value (25)                                  
+│  ✓ Display queue from front to rear                             
+│  ✓ Peek at front element                                        
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -535,7 +511,7 @@ For questions or clarifications, contact any group member listed in the table ab
 - **University of Johannesburg** - APM11A1 Module
 - **Learning Unit 4: Data Structures**
 - **All 7 group members** for their hard work and dedication
-- **Dr. / Prof. [Lecturer Name]** - For guidance and support
+- **Prof. Mr David Chuku Taole** - For guidance and support
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -547,13 +523,7 @@ For questions or clarifications, contact any group member listed in the table ab
 ║              ╔════════════════════════════════════╗              ║
 ║              ║    THANK YOU FOR USING OUR PROGRAM  ║              ║
 ║              ╚════════════════════════════════════╝              ║
-║                                                                  ║
-║                    ███████╗███╗   ██╗██████╗                     ║
-║                    ██╔════╝████╗  ██║██╔══██╗                    ║
-║                    █████╗  ██╔██╗ ██║██║  ██║                    ║
-║                    ██╔══╝  ██║╚██╗██║██║  ██║                    ║
-║                    ██║     ██║ ╚████║██████╔╝                    ║
-║                    ╚═╝     ╚═╝  ╚═══╝╚═════╝                     ║
+║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
