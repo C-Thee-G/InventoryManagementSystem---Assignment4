@@ -337,29 +337,6 @@ SUCCESS: Total Inventory after updates: R 665350.00
 
 ---
 
-## SUBMISSION DETAILS
-
-### File Name Format
-```
-[STUDENT_NO]_[SURNAME]_Assignment4.cpp
-```
-
-### Example
-```
-221152725_Ncube_Assignment4.cpp
-```
-
-### Submission Includes
-- Single `.cpp` source file
-- This `README.md` file (optional but recommended)
-
-### Plagiarism Notice
-This is a group work assignment. Copying from other groups or online sources will result in:
-- 0% for the assignment
-- Disciplinary consequences as per UJ policy
-
----
-
 ## CONTACT
 
 For questions or clarifications, contact any group member listed in the table above.
