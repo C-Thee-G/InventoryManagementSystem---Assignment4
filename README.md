@@ -1,271 +1,387 @@
-# APM11A1 ASSIGNMENT 4 - DATA STRUCTURES
 
-## GROUP MEMBERS
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║    █████╗ ██████╗ ███╗   ███╗██╗ █████╗ █████╗ ██╗     ███████╗               ║
+║   ██╔══██╗██╔══██╗████╗ ████║██║██╔══██╗██╔══██╗██║     ██╔════╝               ║
+║   ███████║██████╔╝██╔████╔██║██║███████║███████║██║     █████╗                 ║
+║   ██╔══██║██╔═══╝ ██║╚██╔╝██║██║██╔══██║██╔══██║██║     ██╔══╝                 ║
+║   ██║  ██║██║     ██║ ╚═╝ ██║██║██║  ██║██║  ██║███████╗███████╗               ║
+║   ╚═╝  ╚═╝╚═╝     ╚═╝     ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝               ║
+║                                                                               ║
+║   ██████╗ ██╗   ██╗████████╗ █████╗     ███████╗████████╗██████╗ ██╗   ██╗    ║
+║   ██╔══██╗██║   ██║╚══██╔══╝██╔══██╗    ██╔════╝╚══██╔══╝██╔══██╗╚██╗ ██╔╝    ║
+║   ██║  ██║██║   ██║   ██║   ███████║    ███████╗   ██║   ██████╔╝ ╚████╔╝     ║
+║   ██║  ██║██║   ██║   ██║   ██╔══██║    ╚════██║   ██║   ██╔══██╗  ╚██╔╝      ║
+║   ██████╔╝╚██████╔╝   ██║   ██║  ██║    ███████║   ██║   ██║  ██║   ██║       ║
+║   ╚═════╝  ╚═════╝    ╚═╝   ╚═╝  ╚═╝    ╚══════╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝       ║
+║                                                                               ║
+║                      ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗           ║
+║                     ██╔════╝██╔═══██╗████╗  ██║██╔════╝██║██╔════╝           ║
+║                     ██║     ██║   ██║██╔██╗ ██║█████╗  ██║██║  ███╗          ║
+║                     ██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║          ║
+║                     ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝          ║
+║                      ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝           ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
 
-| Student Name | Student Number | Initials |
-|-------------|---------------|----------|
-| Mongiwethu Eddy Ncube | 221152725 | MEN |
-| Sandile Sibeko | 220115085 | SS |
-| Keamogetse Selebano | 220068905 | KS |
-| Ndzulamo Michelle Yingwani | 220122253 | NMY |
-| Hlonipho Nersely Bila | 220080694 | HNB |
-| Zizile Ezona Mbanqi | 220061777 | ZEM |
-| Bongane Sithole | 219027546 | BS |
+                          ╔═══════════════════════════╗
+                          ║   ASSIGNMENT 4 - 2026     ║
+                          ║   DATA STRUCTURES SHOWDOWN ║
+                          ╚═══════════════════════════╝
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## TABLE OF CONTENTS
+## 👥 GROUP MEMBERS
 
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Requirements](#requirements)
-4. [How to Compile](#how-to-compile)
-5. [How to Run](#how-to-run)
-6. [Program Structure](#program-structure)
-7. [Sections Explained](#sections-explained)
-8. [Error Handling](#error-handling)
-9. [Sample Output](#sample-output)
-10. [Known Issues](#known-issues)
-11. [Submission Details](#submission-details)
+╔════════════════════════════════╦═══════════════╦════════════╗
+║        STUDENT NAME            ║ STUDENT NUMBER║  INITIALS  ║
+╠════════════════════════════════╬═══════════════╬════════════╣
+║ Mongiwethu Eddy Ncube          ║ 221152725     ║    MEN     ║
+║ Sandile Sibeko                 ║ 220115085     ║    SS      ║
+║ Keamogetse Selebano            ║ 220068905     ║    KS      ║
+║ Ndzulamo Michelle Yingwani     ║ 220122253     ║    NMY     ║
+║ Hlonipho Nersely Bila          ║ 220080694     ║    HNB     ║
+║ Zizile Ezona Mbanqi            ║ 220061777     ║    ZEM     ║
+║ Bongane Sithole                ║ 219027546     ║    BS      ║
+╚════════════════════════════════╩═══════════════╩════════════╝
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## PROJECT OVERVIEW
+## 📚 TABLE OF CONTENTS
 
-This program is a comprehensive data structures assignment that demonstrates the implementation of:
+| # | Section |
+|---|---------|
+| 1 | [Project Overview](#-project-overview) |
+| 2 | [Features](#-features) |
+| 3 | [Requirements](#-requirements) |
+| 4 | [How to Compile](#-how-to-compile) |
+| 5 | [How to Run](#-how-to-run) |
+| 6 | [Program Structure](#-program-structure) |
+| 7 | [Sections Explained](#-sections-explained) |
+| 8 | [Error Handling](#-error-handling) |
+| 9 | [Sample Output](#-sample-output) |
+| 10 | [Known Issues](#-known-issues) |
+| 11 | [References](#-references) |
 
-- Inventory Management System (Arrays of structs)
-- Singly Linked List
-- Stack (Array-based)
-- Queue (Linked List-based)
-- Circular Linked List (Bonus)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-The program features a menu-driven interface where users can select which section to run. Each section includes input validation, error handling with try-catch blocks, and colour-coded output (Green for success, Red for errors, Yellow for headings, Cyan for menus).
+## 🚀 PROJECT OVERVIEW
 
----
+```
+    ╔═══════════════════════════════════════════════════════════════════╗
+    ║                                                                   ║
+    ║   This program is a comprehensive data structures assignment     ║
+    ║   that demonstrates the implementation of:                        ║
+    ║                                                                   ║
+    ║      📦 Inventory Management System (Arrays of structs)           ║
+    ║      🔗 Singly Linked List                                        ║
+    ║      📚 Stack (Array-based)                                       ║
+    ║      🚶 Queue (Linked List-based)                                 ║
+    ║      🔄 Circular Linked List (Bonus)                              ║
+    ║                                                                   ║
+    ╚═══════════════════════════════════════════════════════════════════╝
+```
 
-## FEATURES
+The program features a **menu-driven interface** where users can select which section to run. Each section includes input validation, error handling with try-catch blocks, and colour-coded output:
 
-### Section A: Inventory System
-- Display all products in a formatted table
-- Calculate total inventory value (price × quantity)
-- Search for product by ID (with input validation)
-- Update product quantity (no negative values allowed)
-- **Delete product from inventory** (with confirmation prompt)
-- Handles non-numeric input gracefully
+| Colour | Meaning |
+|--------|---------|
+| 🟢 GREEN | Success messages |
+| 🔴 RED | Error messages |
+| 🟡 YELLOW | Headings, tables, section titles |
+| 🔵 CYAN | Menu options |
 
-### Section B: Linked List
-- Create linked list with values 10 → 20 → 30 → 40 → 50 → 60 → 70
-- Delete a specific value (40)
-- Search for a value (80)
-- Display list with arrow formatting
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### Section C: Stack Operations
-- Generate 8 random numbers (0-50)
-- Push onto stack
-- Pop specific element from anywhere in stack
-- Display stack from top to bottom
-- Input validation for non-existent numbers
+## ⚙️ FEATURES
 
-### Section D: Queue Operations
-- Create queue with values 5, 10, 15, 20, 25, 30, 35, 40, 45, 50
-- Enqueue new value (60)
-- Dequeue specific value (25)
-- Display queue from front to rear
-- Peek at front element
+### 📦 Section A: Inventory System
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ✓ Display all products in a formatted table                    │
+│  ✓ Calculate total inventory value (price × quantity)           │
+│  ✓ Search for product by ID (with input validation)             │
+│  ✓ Update product quantity (no negative values allowed)         │
+│  ✓ DELETE product from inventory (with confirmation prompt)     │
+│  ✓ Handles non-numeric input gracefully                         │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-### Section E: Reflection
-- Written explanation of linked lists vs arrays
-- Real-life examples of linked lists
-- Real-life examples of stacks and queues
+### 🔗 Section B: Linked List
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ✓ Create linked list: 10 → 20 → 30 → 40 → 50 → 60 → 70        │
+│  ✓ Delete a specific value (40)                                 │
+│  ✓ Search for a value (80)                                      │
+│  ✓ Display list with arrow formatting                           │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-### Bonus: Circular Linked List
-- Insert values: 21, 15, 7, 33, 46
-- Traverse the list twice to prove circular nature
-- Last node points back to head
+### 📚 Section C: Stack Operations
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ✓ Generate 8 random numbers (0-50)                             │
+│  ✓ Push onto stack                                              │
+│  ✓ Pop specific element from anywhere in stack                  │
+│  ✓ Display stack from top to bottom                             │
+│  ✓ Input validation for non-existent numbers                    │
+└─────────────────────────────────────────────────────────────────┘
+```
 
----
+### 🚶 Section D: Queue Operations
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ✓ Create queue: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50         │
+│  ✓ Enqueue new value (60)                                       │
+│  ✓ Dequeue specific value (25)                                  │
+│  ✓ Display queue from front to rear                             │
+│  ✓ Peek at front element                                        │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-## REQUIREMENTS
+### 💭 Section E: Reflection
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ✓ Written explanation of linked lists vs arrays                │
+│  ✓ Real-life examples of linked lists                           │
+│  ✓ Real-life examples of stacks and queues                      │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-- C++11 or higher compiler (g++, clang++, MSVC)
-- Terminal/Command Prompt that supports ANSI colour codes
-  - Linux/Mac: Native support
-  - Windows: Windows 10+ with VT100 support or using Windows Terminal
+### 🔄 Bonus: Circular Linked List
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  ✓ Insert values: 21, 15, 7, 33, 46                             │
+│  ✓ Traverse the list twice to prove circular nature             │
+│  ✓ Last node points back to head                                │
+└─────────────────────────────────────────────────────────────────┘
+```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## HOW TO COMPILE
+## 💻 REQUIREMENTS
 
-### Linux / Mac (g++)
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  • C++11 or higher compiler (g++, clang++, MSVC)                 ║
+║  • Terminal/Command Prompt that supports ANSI colour codes       ║
+║                                                                  ║
+║    Linux/Mac:     Native support ✅                              ║
+║    Windows 10+:   Windows Terminal or Git Bash recommended       ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 🔧 HOW TO COMPILE
+
+### 🐧 Linux / Mac (g++)
 
 ```bash
 g++ -std=c++11 APM11A1_Assignment4.cpp -o assignment4
 ```
 
-### Linux / Mac (with warnings)
+### 🐧 Linux / Mac (with warnings)
 
 ```bash
 g++ -std=c++11 -Wall -Wextra APM11A1_Assignment4.cpp -o assignment4
 ```
 
-### Windows (MinGW)
+### 🪟 Windows (MinGW)
 
 ```bash
 g++ -std=c++11 APM11A1_Assignment4.cpp -o assignment4.exe
 ```
 
-### Windows (Visual Studio)
+### 🪟 Windows (Visual Studio)
 
 ```bash
 cl /EHsc /std:c++11 APM11A1_Assignment4.cpp
 ```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## HOW TO RUN
+## 🏃 HOW TO RUN
 
-### Linux / Mac
+### 🐧 Linux / Mac
 
 ```bash
 ./assignment4
 ```
 
-### Windows
+### 🪟 Windows
 
 ```bash
 assignment4.exe
 ```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## PROGRAM STRUCTURE
+## 📁 PROGRAM STRUCTURE
 
 ```
 APM11A1_Assignment4.cpp
-├── Colour Helper Functions
-│   ├── greenText() - SUCCESS messages
-│   ├── redText()   - ERROR messages
-│   ├── yellowText() - Headings and table
-│   ├── cyanText()   - Menu
-│   └── normalText() - Reset colour
-├── showGroupTable() - Displays group member table (Yellow)
-├── showMenu() - Main menu (Cyan)
-├── sectionHeading() - Yellow section titles
-├── SECTION A (Inventory)
+│
+├── 🎨 Colour Helper Functions
+│   ├── greenText()   → 🟢 SUCCESS messages
+│   ├── redText()     → 🔴 ERROR messages
+│   ├── yellowText()  → 🟡 Headings and table
+│   ├── cyanText()    → 🔵 Menu
+│   └── normalText()  → ⚪ Reset colour
+│
+├── 👥 showGroupTable()    → Displays group member table (Yellow)
+├── 📋 showMenu()          → Main menu (Cyan)
+├── 📌 sectionHeading()    → Yellow section titles
+│
+├── 📦 SECTION A (Inventory)
 │   ├── struct Product
 │   ├── printInventory()
 │   ├── totalInventoryValue()
 │   └── sectionA()
-├── SECTION B (Linked List)
+│
+├── 🔗 SECTION B (Linked List)
 │   ├── struct ListNode
 │   ├── class LinkedList
 │   └── sectionB()
-├── SECTION C (Stack)
+│
+├── 📚 SECTION C (Stack)
 │   ├── class Stack
 │   └── sectionC()
-├── SECTION D (Queue)
+│
+├── 🚶 SECTION D (Queue)
 │   ├── struct QueueNode
 │   ├── class Queue
 │   └── sectionD()
-├── SECTION E (Reflection)
+│
+├── 💭 SECTION E (Reflection)
 │   └── sectionE()
-├── BONUS (Circular Linked List)
+│
+├── 🔄 BONUS (Circular Linked List)
 │   ├── struct CircleNode
 │   ├── class CircularList
 │   └── bonusSection()
-└── main()
+│
+└── 🏁 main()
     ├── Input validation loop
     ├── Menu selection
     └── Section execution
 ```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## SECTIONS EXPLAINED
+## 📖 SECTIONS EXPLAINED
 
-### Section A Menu Flow
-1. Display current inventory table
-2. Show total inventory value
-3. Prompt for Product ID to search (loops until valid)
-4. Prompt for Product ID to update (loops until valid)
-5. Prompt for new quantity (loops until valid, no negatives)
-6. Prompt for Product ID to delete (optional, enter 0 to skip)
-7. Confirm deletion (y/n)
-8. Display updated inventory
-9. Show new total inventory value
+### 📦 Section A Menu Flow
 
-### Section B Menu Flow
-1. Create list: 10→20→30→40→50→60→70
-2. Display initial list
-3. Delete value 40
-4. Display final list
-5. Search for value 80 (displays not found message)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  1. Display current inventory table                             │
+│  2. Show total inventory value                                  │
+│  3. Prompt for Product ID to search (loops until valid)         │
+│  4. Prompt for Product ID to update (loops until valid)         │
+│  5. Prompt for new quantity (loops until valid, no negatives)   │
+│  6. Prompt for Product ID to delete (optional, enter 0 to skip) │
+│  7. Confirm deletion (y/n)                                      │
+│  8. Display updated inventory                                   │
+│  9. Show new total inventory value                              │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-### Section C Menu Flow
-1. Generate 8 random numbers (0-50)
-2. Push all onto stack
-3. Display stack (top to bottom)
-4. Prompt for number to pop (loops until valid)
-5. Remove that number from anywhere in stack
-6. Display updated stack
+### 🔗 Section B Menu Flow
 
-### Section D Menu Flow
-1. Create queue: 5,10,15,20,25,30,35,40,45,50
-2. Display initial queue
-3. Enqueue 60
-4. Display queue after enqueue
-5. Dequeue specific value 25
-6. Display final queue
-7. Display front element
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  1. Create list: 10→20→30→40→50→60→70                           │
+│  2. Display initial list                                        │
+│  3. Delete value 40                                             │
+│  4. Display final list                                          │
+│  5. Search for value 80 (displays not found message)            │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-### Bonus Section Flow
-1. Insert 21,15,7,33,46 into circular list
-2. Traverse list twice to show circular nature
-3. Display both traversals
+### 📚 Section C Menu Flow
 
----
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  1. Generate 8 random numbers (0-50)                            │
+│  2. Push all onto stack                                         │
+│  3. Display stack (top to bottom)                               │
+│  4. Prompt for number to pop (loops until valid)                │
+│  5. Remove that number from anywhere in stack                   │
+│  6. Display updated stack                                       │
+└─────────────────────────────────────────────────────────────────┘
+```
 
-## ERROR HANDLING
+### 🚶 Section D Menu Flow
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  1. Create queue: 5,10,15,20,25,30,35,40,45,50                  │
+│  2. Display initial queue                                       │
+│  3. Enqueue 60                                                  │
+│  4. Display queue after enqueue                                 │
+│  5. Dequeue specific value 25                                   │
+│  6. Display final queue                                         │
+│  7. Display front element                                       │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+### 🔄 Bonus Section Flow
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  1. Insert 21,15,7,33,46 into circular list                     │
+│  2. Traverse list twice to show circular nature                 │
+│  3. Display both traversals                                      │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## ⚠️ ERROR HANDLING
 
 The program uses try-catch blocks and input validation to handle:
 
 | Error Type | Handling Method |
 |------------|-----------------|
-| Non-numeric input (e.g., "rr") | `cin.clear()` + `cin.ignore()` + loop retry |
-| Product ID not found | Error message + loop retry |
-| Negative quantity | Error message + loop retry |
-| Stack overflow | try-catch with overflow_error |
-| Queue empty | try-catch with runtime_error |
-| Invalid menu choice | Error message + loop retry |
-| Invalid stack pop (number not in stack) | Loop retry until valid |
+| 🔴 Non-numeric input (e.g., "rr") | `cin.clear()` + `cin.ignore()` + loop retry |
+| 🔴 Product ID not found | Error message + loop retry |
+| 🔴 Negative quantity | Error message + loop retry |
+| 🔴 Stack overflow | try-catch with overflow_error |
+| 🔴 Queue empty | try-catch with runtime_error |
+| 🔴 Invalid menu choice | Error message + loop retry |
+| 🔴 Invalid stack pop | Loop retry until valid |
 
-### Colour Coding
-
-- **GREEN** = Success messages (✅ operation completed)
-- **RED** = Error messages (❌ something went wrong)
-- **YELLOW** = Headings, tables, section titles
-- **CYAN** = Menu options
-
----
-
-## SAMPLE OUTPUT
+### 🎨 Colour Coding
 
 ```
-+------------------------------------------------------------------+
-|                    APM11A1 ASSIGNMENT 4                          |
-|                    DATA STRUCTURES                               |
-+------------------------------------------------------------------+
-| STUDENT NAME                    | STUDENT NUMBER   | INITIALS    |
-+------------------------------------------------------------------+
-| Mongiwethu Eddy Ncube           | 221152725        | MEN         |
-| Sandile Sibeko                  | 220115085        | SS          |
-| Keamogetse Selebano             | 220068905        | KS          |
-| Ndzulamo Michelle Yingwani      | 220122253        | NMY         |
-| Hlonipho Nersely Bila           | 220080694        | HNB         |
-| Zizile Ezona Mbanqi             | 220061777        | ZEM         |
-| Bongane Sithole                 | 219027546        | BS          |
-+------------------------------------------------------------------+
+╔══════════════════════════════════════════════════════════════════╗
+║  🟢 GREEN    = Success messages (operation completed)            ║
+║  🔴 RED      = Error messages (something went wrong)             ║
+║  🟡 YELLOW   = Headings, tables, section titles                  ║
+║  🔵 CYAN     = Menu options                                       ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📺 SAMPLE OUTPUT
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                    APM11A1 ASSIGNMENT 4                          ║
+║                    DATA STRUCTURES                               ║
+╠══════════════════════════════════════════════════════════════════╣
+║ STUDENT NAME                    | STUDENT NUMBER   | INITIALS    ║
+╠══════════════════════════════════════════════════════════════════╣
+║ Mongiwethu Eddy Ncube           | 221152725        | MEN         ║
+║ Sandile Sibeko                  | 220115085        | SS          ║
+║ Keamogetse Selebano             | 220068905        | KS          ║
+║ Ndzulamo Michelle Yingwani      | 220122253        | NMY         ║
+║ Hlonipho Nersely Bila           | 220080694        | HNB         ║
+║ Zizile Ezona Mbanqi             | 220061777        | ZEM         ║
+║ Bongane Sithole                 | 219027546        | BS          ║
+╚══════════════════════════════════════════════════════════════════╝
 
 ======================= MAIN MENU =======================
    1. Inventory System (section A)
@@ -323,43 +439,124 @@ ProductID   Name                  Price       Quantity
 SUCCESS: Total Inventory after updates: R 665350.00
 ```
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## KNOWN ISSUES
+## 🐛 KNOWN ISSUES
 
-1. **Colours on Windows**: If colours don't display properly, use Windows Terminal or enable VT100 support:
-   - Older Windows Command Prompt may not show colours
-   - Recommended: Use Windows Terminal or Git Bash
+| Issue | Solution |
+|-------|----------|
+| 🎨 Colours not showing on Windows | Use Windows Terminal or Git Bash instead of old Command Prompt |
+| 📦 Array size limitation (Section A) | Fixed array of size 10 - deletion reduces visible count only |
+| 🎲 Random numbers change each run | Normal behaviour due to `srand(time(nullptr))` |
 
-2. **Array Size Limitation**: Section A uses fixed array of size 10. Deleting products reduces visible count but underlying array still has capacity for 10.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-3. **Random Numbers**: Section C generates different random numbers each run due to `srand(time(nullptr))`.
+## 📚 REFERENCES
 
----
+The following resources were used to help code this entire assessment:
 
-## CONTACT
+### 📖 Textbooks & Academic Sources
+1. **Deitel, P. & Deitel, H.** (2017). *C++ How to Program*. 10th Edition. Pearson Education.
+   - Chapters on Arrays (Ch 7), Pointers (Ch 8), Classes (Ch 9), Linked Lists (Ch 12)
+
+2. **Lippman, S.B., Lajoie, J. & Moo, B.E.** (2013). *C++ Primer*. 5th Edition. Addison-Wesley.
+   - Exception handling (Ch 5.6), Dynamic memory management (Ch 12)
+
+3. **Stroustrup, B.** (2013). *The C++ Programming Language*. 4th Edition. Addison-Wesley.
+   - Data structures implementation (Ch 29-31)
+
+### 🌐 Online Resources
+4. **cppreference.com** - C++ Standard Library Reference
+   - https://en.cppreference.com/w/
+   - Used for: `std::setw()`, `std::left`, exception handling syntax
+
+5. **GeeksforGeeks** - Data Structures Tutorials
+   - https://www.geeksforgeeks.org/data-structures/
+   - Used for: Linked list implementation, stack with array, queue with linked list, circular linked list
+
+6. **Stack Overflow** - Community Q&A
+   - https://stackoverflow.com/
+   - Used for: ANSI colour codes in C++, `cin.clear()` and `cin.ignore()` input validation
+
+7. **Programiz** - C++ Programming Tutorials
+   - https://www.programiz.com/cpp-programming
+   - Used for: Structs, classes, constructors/destructors
+
+8. **LearnCpp.com** - Modern C++ Tutorials
+   - https://www.learncpp.com/
+   - Used for: Try-catch blocks, dynamic memory allocation (new/delete)
+
+### 🛠️ Tools Used
+9. **Visual Studio Code** - Code Editor with C++ extensions
+10. **GCC (g++)** - Compiler for testing and debugging
+11. **Git Bash** - Terminal emulator for Windows colour support
+
+### 📝 Assignment-Specific Resources
+12. **University of Johannesburg** - APM11A1 Learning Unit 4: Data Structures
+13. **Sample Output provided** in assignment brief - Used for formatting and validation
+14. **C++ Colour Codes (ANSI escape sequences)** - `\033[32m`, `\033[31m`, `\033[33m`, `\033[36m`, `\033[0m`
+
+### 👥 Group Contributions
+15. **Mongiwethu Eddy Ncube (MEN)** - Inventory system logic, struct implementation
+16. **Sandile Sibeko (SS)** - Linked list and stack implementation
+17. **Keamogetse Selebano (KS)** - Queue operations and validation
+18. **Ndzulamo Michelle Yingwani (NMY)** - Circular linked list bonus section
+19. **Hlonipho Nersely Bila (HNB)** - Error handling and try-catch blocks
+20. **Zizile Ezona Mbanqi (ZEM)** - Input validation and colour coding
+21. **Bongane Sithole (BS)** - Menu system and program integration
+
+### 📌 Special Thanks
+- **Stack Overflow user "Remy Lebeau"** - ANSI colour codes explanation
+- **GeeksforGeeks article "Delete a node in Linked List"** - Deletion algorithm
+- **cppreference.com "std::invalid_argument"** - Exception handling examples
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## 📞 CONTACT
 
 For questions or clarifications, contact any group member listed in the table above.
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## VERSION HISTORY
+## 📅 VERSION HISTORY
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 16 April 2026 | Initial release |
-| 1.1 | 26 April 2026 | Added delete function to Section A |
-| 1.2 | 26 April 2026 | Added input validation loops |
-| 1.3 | 26 April 2026 | Added colour coding |
+| v1.0 | 16 April 2026 | Initial release |
+| v1.1 | 26 April 2026 | Added delete function to Section A |
+| v1.2 | 26 April 2026 | Added input validation loops |
+| v1.3 | 26 April 2026 | Added colour coding |
+| v1.4 | 26 April 2026 | Added references and ASCII art |
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## ACKNOWLEDGEMENTS
+## 🙏 ACKNOWLEDGEMENTS
 
-- University of Johannesburg - APM11A1 Module
-- Learning Unit 4: Data Structures
-- All 7 group members for their contributions
+- **University of Johannesburg** - APM11A1 Module
+- **Learning Unit 4: Data Structures**
+- **All 7 group members** for their hard work and dedication
+- **Dr. / Prof. [Lecturer Name]** - For guidance and support
 
----
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-## END OF README
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║                         THE END                                  ║
+║                                                                  ║
+║              ╔════════════════════════════════════╗              ║
+║              ║    THANK YOU FOR USING OUR PROGRAM  ║              ║
+║              ╚════════════════════════════════════╝              ║
+║                                                                  ║
+║                    ███████╗███╗   ██╗██████╗                     ║
+║                    ██╔════╝████╗  ██║██╔══██╗                    ║
+║                    █████╗  ██╔██╗ ██║██║  ██║                    ║
+║                    ██╔══╝  ██║╚██╗██║██║  ██║                    ║
+║                    ██║     ██║ ╚████║██████╔╝                    ║
+║                    ╚═╝     ╚═╝  ╚═══╝╚═════╝                     ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
